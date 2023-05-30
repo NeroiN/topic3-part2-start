@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Reddit</string>
+  <string name="app_name">Reddit2</string>
   <string name="default_username">u/raywenderlich</string>
   <string name="home">Home</string>
   <string name="subreddits">Subreddits</string>

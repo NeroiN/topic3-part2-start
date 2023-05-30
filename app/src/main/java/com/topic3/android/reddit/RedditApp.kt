@@ -117,7 +117,7 @@ private fun MainScreenContainer(
         color = MaterialTheme.colors.background
     ) {
         when (screenState.value) {
-            Screen.Home -> HomeScreen(viewModel)
+            Screen.Home -> HomeScreen(/*viewModel*/)// Я хз зачем она сдесь, но всплывает ошибка !!!
             Screen.Subscriptions -> SubredditsScreen()
             Screen.NewPost -> AddScreen()
             Screen.MyProfile -> MyProfileScreen()
